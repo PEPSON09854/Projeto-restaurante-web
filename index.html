@@ -16,12 +16,15 @@
         <div id="header">
             <nav class="nav-header">
                 <img src="img/place-label-service-logo.png" alt="">
+                
                 <div class="nav-titles">
-                    <a class="nav-items btn-sobre" href="#mostrar">Sobre</a>
-                    <a class="nav-items" href="#footer">Contatos</a>
+                    <a class="nav-items menu-san" href="#"><i class="fa-solid fa-bars"></i></a>
+                    <a class="nav-items btn-sobre" href="#mostrar"><i class="fa-solid fa-building"></i></a>
                 </div>
-                <input type="text" placeholder="Faça sua busca aqui....">
-                <a id="btn"><i class="mdi mdi-magnify"></i></a>
+                <div class="shearch">
+                    <input type="text" placeholder="Faça sua busca aqui....">
+                    <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
             </nav>
         </div>
         
@@ -29,28 +32,30 @@
                 
                 <div class="image-header">
                     <img  src="img/goomer-pratos-do-dia-cardapio-restaurante-como-montar.jpg" alt="">
+                    
                 </div>
-                <header class="menu-sanduba-header">
+
+                
+                <header class="menu-sanduba-header menu-bar">
                     <h2>Menu</h2>
                 </header> 
 
-                <i class="fa-solid fa-bars"></i>
 
-                <ul class="menu-sanduba">
+                <ul class="menu-sanduba  menu-bar">
                     <li class="menu-item">
-                        <a href="#menu1">Pratos populares</a>
+                        <a class="item" href="#menu1">pratos principais</a>
                         <i class="mdi mdi-silverware-fork-knife"></i>
                     </li>
                     <li class="menu-item">
-                        <a href="#menu2">Sobremesas</a>
+                        <a class="item" href="#menu2">sobremesas</a>
                         <i class="mdi mdi-food"></i>
                     </li>
                     <li class="menu-item">
-                        <a href="#menu3">Porções - sopas</a>
+                        <a class="item" href="#menu3">porções - sopas</a>
                         <i class="mdi mdi-noodles"></i>
                     </li>
                     <li class="menu-item">
-                        <a href="#menu4">Recomendações do chefe</a>
+                        <a class="item" href="#menu4">recomendações do chefe</a>
                         <i class="mdi mdi-food-turkey"></i>
                     </li>
                 </ul>
@@ -88,11 +93,11 @@
                 </div>
 
             </div>
-            <div class="menu1 card-all" id="menu1" data-title="pratos">
-                <h4>Pratos Populares</h4>
+            <div class="menu1 card-all" id="menu1" data-title="pratos principais">
+                <h4>Pratos principais</h4>
                 <i class="mdi mdi-silverware-fork-knife"></i>
             </div>
-            <div class="menu card-all" data-title="pratos">
+            <div class="menu  card-all" data-title="pratos principais">
                 <div class="menu-card  card1 wrapers">
                     <img src="img/bean-stew-g4fed6ac23_1920.jpg" alt="">
                     <div>
@@ -106,7 +111,7 @@
                     <p>R$ 9.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all card1 wrapers" data-title="pratos">
+                <div class="menu-card card-all card1" data-title="pratos principais">
                     <img src="img/food-g46ede7068_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -119,7 +124,7 @@
                     <p>R$ 15.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="pratos">
+                <div class="menu-card card-all" data-title="pratos principais">
                     <img src="img/rice-dish-gcf6ff6e86_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -132,7 +137,7 @@
                     <p>R$ 12.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="pratos">
+                <div class="menu-card card-all" data-title="pratos principais">
                     <img src="img/barbecue-gbdb679972_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -145,7 +150,7 @@
                     <p>R$ 19.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div> 
-                <div class="menu-card card-all card1 wrapers" data-title="pratos">
+                <div class="menu-card card-all card1" data-title="pratos principais">
                     <img src="img/american-salad-gf1c0c8b7e_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -158,7 +163,7 @@
                     <p>R$ 9.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>   
-                <div class="menu-card card-all wrapers" data-title="pratos">
+                <div class="menu-card card-all" data-title="pratos principais">
                     <img src="img/stew-g789a3d8f0_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -172,12 +177,12 @@
                     <button class="btn2">Adicionar</button>
                 </div>    
             </div>
-            <div class="menu2 card card-all" id="menu2" data-title="sobremesa">
+            <div class="menu2 card card-all" id="menu2" data-title="sobremesas">
                 <h4>Sobremesas</h4>
                 <i class="mdi mdi-food"></i>
             </div>
-            <div class="menu card card-all" data-title="sobremesa">
-                <div class="menu-card wrapers">
+            <div class="menu card card-all" data-title="sobremesas">
+                <div class="menu-card">
                     <img src="img/dessert-g403d3cb2c_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -190,7 +195,7 @@
                     <p>R$ 11.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="sobremesa">
+                <div class="menu-card card-all" data-title="sobremesas">
                     <img src="img/dessert-g66ce03eab_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -203,7 +208,7 @@
                     <p>R$ 8.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="sobremesa">
+                <div class="menu-card card-all" data-title="sobremesas">
                     <img src="img/cake-gbc1d8d439_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -213,9 +218,10 @@
                         <i class="fa-solid fa-star"></i>
                     </div>
                     <h2 class="card-title">Torta doce com frutas</h2>
+                    <p>R$ 19.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="sobremesa">
+                <div class="menu-card card-all" data-title="sobremesas">
                     <img src="img/bread-g342de1c57_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -228,7 +234,7 @@
                     <p>R$ 9.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div> 
-                <div class="menu-card card-all wrapers" data-title="sobremesa">
+                <div class="menu-card card-all" data-title="sobremesas">
                     <img src="img/baked-goods-g94fa47575_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -241,7 +247,7 @@
                     <p>R$ 13.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>   
-                <div class="menu-card card-all wrapers" data-title="sobremesa">
+                <div class="menu-card card-all" data-title="sobremesas">
                     <img src="img/creme-caramel-ge8714a1fd_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -255,11 +261,11 @@
                     <button class="btn2">Adicionar</button>
                 </div>    
             </div>
-            <div class="menu3 card card-all" id="menu3" data-title="sopa">
+            <div class="menu3 card card-all" id="menu3" data-title="porções - sopas">
                 <h4>Porções - sopas</h4>
                 <i class="mdi mdi-noodles"></i>
             </div>
-            <div class="menu card card-all" data-title="sopa">
+            <div class="menu card card-all" data-title="porções - sopas">
                 <div class="menu-card wrapers">
                     <img src="img/goulash-soup-gea14b2286_1920.jpg" alt="">
                     <div>
@@ -273,7 +279,7 @@
                     <p>R$ 11.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="sopa">
+                <div class="menu-card card-all" data-title="porções - sopas">
                     <img src="img/tomatoes-g79fa8497a_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -286,7 +292,7 @@
                     <p>R$ 9.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="sopa">
+                <div class="menu-card card-all" data-title="porções - sopas">
                     <img src="img/instant-noodles-g66e3d4c97_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -299,7 +305,7 @@
                     <p>R$ 12.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="sopa">
+                <div class="menu-card card-all" data-title="porções - sopas">
                     <img src="img/lentil-soup-gc4713fae6_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -313,7 +319,7 @@
                     <p>R$ 9.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div> 
-                <div class="menu-card card-all wrapers" data-title="sopa">
+                <div class="menu-card card-all" data-title="porções - sopas">
                     <img src="img/sapporo-soup-curry-g4a3295e0b_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -326,7 +332,7 @@
                     <p>R$ 15.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>   
-                <div class="menu-card card-all wrapers" data-title="sopa">
+                <div class="menu-card card-all" data-title="porções - sopas">
                     <img src="img/soup-g8ebad4c20_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -340,11 +346,11 @@
                     <button class="btn2">Adicionar</button>
                 </div>    
             </div>
-            <div class="menu4 card card-all" id="menu4" data-title="carnes">
+            <div class="menu4 card card-all" id="menu4" data-title="recomendações do chefe">
                 <h4>Recomendações do chefe</h4>
                 <i class="mdi mdi-food-turkey"></i>
             </div>
-            <div class="menu card card-all" data-title="carnes">
+            <div class="menu card card-all" data-title="recomendações do chefe">
                 <div class="menu-card wrapers">
                     <img src="img/salmon-g0726b0754_1920.jpg" alt="">
                     <div>
@@ -358,7 +364,7 @@
                     <p>R$ 24.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="carnes">
+                <div class="menu-card card-all" data-title="recomendações do chefe">
                     <img src="img/costeleta-de-cordeiro-alla-vecchia-cucina-com-gnocchi-na-manteiga-sálvia-e-parmesão-750x500.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -371,7 +377,7 @@
                     <p>R$ 29.99</p>
                     <button class="btn2">Adicionar</button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="carnes">
+                <div class="menu-card card-all" data-title="recomendações do chefe">
                     <img src="img/asparagus-g1be0b16ba_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -384,7 +390,7 @@
                     <p>R$ 34.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>    
-                <div class="menu-card card-all wrapers" data-title="carnes">
+                <div class="menu-card card-all" data-title="recomendações do chefe">
                     <img src="img/steak-g2761db77f_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -398,7 +404,7 @@
                     <p>R$ 24.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div> 
-                <div class="menu-card card-all wrapers" data-title="carnes">
+                <div class="menu-card card-all" data-title="recomendações do chefe">
                     <img src="img/grilled-chicken-g98ac4fc20_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
@@ -411,7 +417,7 @@
                     <p>R$ 19.99</p>
                     <button class="btn2">Adicionar</i></button>
                 </div>   
-                <div class="menu-card card-all wrapers" data-title="carnes">
+                <div class="menu-card card-all" data-title="recomendações do chefe">
                     <img src="img/sushi-gb6074e526_1920.jpg" alt="">
                     <div>
                         <i class="fa-solid fa-star"></i>
