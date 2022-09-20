@@ -7,7 +7,7 @@
 
 ## Introdução
 
-o site traz a ideia de um e-commerce do nicho de restaurantes, quando bate aquela fome mas não tem tempo para ir até o 
+O site traz a ideia de um e-commerce do nicho de restaurantes, quando bate aquela fome mas não tem tempo para ir até o 
 local para comer é muito frustante, a melhor forma de resolver isso é fazendo um pedido da sua comida no seu restaurante favorito.
 Primeiramente pensei em fazer um protótipo utilizando o figma, mas como se tratava de um site simples acabei escolhendonão fazer.
 
