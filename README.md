@@ -1,4 +1,4 @@
-# Projeto Restaurante web
+# Projeto Restaurante web 🎓🎓🎓
 <div>
   <img aling='center' alt= 'HTML5' src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'/>
   <img aling='center' alt= 'CSS3' src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'/>
@@ -11,7 +11,7 @@ o site traz a ideia de um e-commerce do nicho de restaurantes, quando bate aquel
 local para comer é muito frustante, a melhor forma de resolver isso é fazendo um pedido da sua comida no seu restaurante favorito.
 Primeiramente pensei em fazer um protótipo utilizando o figma, mas como se tratava de um site simples acabei escolhendonão fazer.
 
-### Funcionalidade e requisitos
+### Funcionalidades e requisitos
 
 - No cabeçalho coloquei uma logo e criei uma caixa de busca que retorna a seção de pratos de acorco com o que o usuário digitou
 - Criei uma seção para os visitantes fazerem  cadastro ou se logarem no site
