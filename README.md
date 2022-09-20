@@ -11,7 +11,7 @@ O site traz a ideia de um e-commerce do nicho de restaurantes, quando bate aquel
 local para comer é muito frustante, a melhor forma de resolver isso é fazendo um pedido da sua comida no seu restaurante favorito.
 Primeiramente pensei em fazer um protótipo utilizando o figma, mas como se tratava de um site simples acabei escolhendo não fazer.
 
-### Funcionalidades e requisitos
+## Funcionalidades e requisitos
 
 - No cabeçalho coloquei uma logo e criei uma caixa de busca que retorna a seção de pratos de acorco com o que o usuário digitou
 - Criei uma seção para os visitantes fazerem  cadastro ou se logarem no site
